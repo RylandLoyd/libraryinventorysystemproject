@@ -14,6 +14,10 @@
 #include <string>		/* string class		*/
 #include <vector>		/* vector STL	 	*/
 #include <sstream>		/* ostringstream 	*/
+#include "Item.h"		/* Item class       	*/
+#include "Book.h"		/* Book class       	*/
+#include "Movie.h"		/* Movie class      	*/
+#include "Magazine.h"	/* Magazine class  		*/
 using namespace std;
 
 /***************************************************************************
@@ -24,9 +28,10 @@ using namespace std;
 class Library
 {
 private:
-	//libraryInventory[][]
+	vector<vector<Item>> libraryInventory[][];
 
-
+public:
+	
 };
 
 
